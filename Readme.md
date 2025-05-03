@@ -10,7 +10,7 @@
 - Visualización de planos mediante feedback visual (material transparente)
 - Generación dinámica de tablero (`Board.prefab`)
 - Uso del nuevo **Input System** de Unity
-- Soporte multiplataforma: **Android** y **iOS**
+- Soporte multiplataforma: **Android**
 - Compatible con simulación en el editor (XR Simulation Environments)
 
 ---
@@ -21,7 +21,7 @@
 - AR Foundation 5.x
 - Input System Package
 - XR Plug-in Management con ARCore (Android) y/o ARKit (iOS)
-- Universal Render Pipeline (URP) (opcional pero recomendado)
+- Universal Render Pipeline (URP)
 
 ---
 
@@ -30,7 +30,7 @@
 1. Clona este repositorio:
 
 ```bash
-git clone https://github.com/tu-usuario/mini-tactics-ar.git
+git clone https://github.com/mvergaral/mini-tactics-ar.git
 ```
 
 2. Abre el proyecto en Unity Hub
@@ -59,11 +59,6 @@ git clone https://github.com/tu-usuario/mini-tactics-ar.git
 
 - Conecta tu teléfono y activa "Depuración USB"
 - Abre `File > Build Settings`, selecciona `Android`, y haz clic en **Build and Run**
-
-### iOS
-
-- Abre `File > Build Settings`, selecciona `iOS`, y clic en **Build**
-- Abre el proyecto generado en Xcode y ejecuta en tu iPhone
 
 ---
 
